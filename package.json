@@ -1,0 +1,32 @@
+{
+  "name": "ssg",
+  "version": "1.0.0",
+  "description": "static site generator",
+  "main": "index.js",
+  "scripts": {
+    "build": "node .",
+    "start": "serve ./public"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egovelox/ssg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egovelox/ssg/issues"
+  },
+  "homepage": "https://github.com/egovelox/ssg#readme",
+  "dependencies": {
+    "front-matter": "^3.0.2",
+    "nunjucks": "^3.2.0",
+    "path": "^0.12.7",
+    "remark": "^11.0.2",
+    "remark-highlight.js": "^5.2.0",
+    "remark-html": "^10.0.0",
+    "remark-slug": "^5.1.2"
+  },
+  "devDependencies": {
+    "serve": "^11.3.0"
+  }
+}
