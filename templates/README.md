@@ -1,0 +1,2 @@
+# ssg
+static site generator
